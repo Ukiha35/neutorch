@@ -11,7 +11,7 @@ from chunkflow.volume import Volume
 import torch
 
 from .transform import *
-from .base import DatasetBase, path_to_dataset_name
+from .dataset import DatasetBase, path_to_dataset_name
 from .sample import SampleWithPointAnnotation, PostSynapseReference
 
 
